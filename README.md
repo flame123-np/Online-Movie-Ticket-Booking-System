@@ -33,3 +33,8 @@
 1. ติดตั้ง Dependencies ที่จำเป็น:
    ```bash
    npm install
+2. ตั้งค่า Firebase Configuration:
+   * นำค่า Config ที่ได้จาก Firebase Console ไปใส่ในไฟล์ตั้งค่าของโปรเจกต์ (เช่น auth.js หรือไฟล์ Environment) ก่อนเริ่มใช้งาน
+3. รัน Server หลังบ้าน:
+   ```bash
+   npm start
